@@ -35,8 +35,8 @@ case "$DEPLOY_ENVIRONMENT" in
 
 	# Fail the script if we don't get a valid environment
 	*)
-		echo "No valid deployment target given"
-		exit 1
+		echo "Deploying to default enviroment"
+		echo "Number of machines set to 1"
 		;;
 esac
 
